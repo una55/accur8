@@ -74,25 +74,25 @@ python accur8.py -u <url> -U <username|userfile.txt> -P <passlist.txt> [options]
 ### Basic Usage
 
 ```bash
-python brute_forcer.py -u https://example.com/login -U admin -P passwords.txt
+python accur8.py -u https://example.com/login -U admin -P passwords.txt
 ```
 
 ### Brute Force with User List and Proxy
 
 ```bash
-python brute_forcer.py -u https://example.com/login -U users.txt -P passwords.txt --proxy http://127.0.0.1:8080
+python accur8.py -u https://example.com/login -U users.txt -P passwords.txt --proxy http://127.0.0.1:8080
 ```
 
 ### Use Tor, Rate Bypass, and Save as CSV
 
 ```bash
-python brute_forcer.py -u https://example.com/login -U admin -P passwords.txt --tor --rate-bypass --output-format csv
+python accur8.py -u https://example.com/login -U admin -P passwords.txt --tor --rate-bypass --output-format csv
 ```
 
 ### With Custom Headers and CSRF
 
 ```bash
-python brute_forcer.py -u https://example.com/login -U admin -P passwords.txt --headers '{"Referer": "https://example.com/login"}' --csrf
+python accur8.py -u https://example.com/login -U admin -P passwords.txt --headers '{"Referer": "https://example.com/login"}' --csrf
 ```
 
 ---
@@ -144,4 +144,4 @@ No warranty. Use at your own risk.
 If you find this useful, consider contributing or reporting issues!
 
 ---
-
+> Made W.R.T ✨
