@@ -1,0 +1,8 @@
+#requirements file for accur8 final tested version 15th may last tested fully functional.
+requests>=2.25.0
+pysocks>=1.7.1
+stem>=1.8.0
+tqdm>=4.60.0
+colorama>=0.4.4
+jinja2>=3.0.0
+beautifulsoup4>=4.9.3
